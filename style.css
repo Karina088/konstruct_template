@@ -340,3 +340,95 @@ button[type="submit"] {
 input:invalid:not(:placeholder-shown)+.form__error {
     display: block;
 }
+
+footer {
+    background: #141A20;
+}
+
+.company {
+    padding-top: 46px;
+}
+
+.footer {
+    display: flex;
+}
+
+.company-par {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+}
+
+.company__logo {
+    padding-top: 19px;
+    padding-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.par {
+    padding-bottom: 49px;
+    width: 250px;
+    line-height: 16px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.link {
+    /* align-items: center;  */
+}
+
+.links>ul {
+    list-style-type: none;
+}
+
+.link_par {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.link-home {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+}
+
+.faq,
+.blog {
+    padding-top: 24px;
+    padding-left: 38px;
+}
+
+.contact {
+    display: flex;
+    align-content: center;
+    justify-content: right;
+}
+
+.contact-info {
+    font-size: 11px;
+    line-height: 16px;
+    align-items: center;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    width: 141px;
+}
+
+.contact-name {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+}
