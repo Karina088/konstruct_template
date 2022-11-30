@@ -2,11 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'OpenSans'; */
 }
 
 header {
@@ -38,7 +38,6 @@ header {
 }
 
 .header__text {
-    /* font-family: 'OpenSans'; */
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -46,7 +45,6 @@ header {
 }
 
 .header__par {
-    /* font-family: 'OpenSans'; */
     font-size: 11px;
     line-height: 13px;
     text-align: center;
@@ -75,7 +73,6 @@ ul.menu__list li {
 }
 
 .menu__link {
-    /* font-family: 'OpenSans'; */
     text-decoration: none;
     font-size: 12px;
     line-height: 14px;
@@ -87,14 +84,13 @@ ul.menu__list li {
     color: #00A4E5;
 }
 
-.our_story {
+.main {
     padding-top: 57px;
     display: flex;
     flex-direction: column;
 }
 
-.content__header {
-    /* font-family: 'OpenSans'; */
+.main__header {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -117,7 +113,6 @@ ul.menu__list li {
 }
 
 .content__founded {
-    /* font-family: 'OpenSans'; */
     padding-top: 64px;
     width: 405px;
     font-size: 20px;
@@ -131,7 +126,6 @@ ul.menu__list li {
 }
 
 .content__text {
-    /* font-family: 'OpenSans'; */
     padding-top: 40px;
     width: 405px;
     font-size: 13px;
@@ -149,7 +143,6 @@ figure {
 }
 
 figcaption {
-    /* font-family: 'OpenSans'; */
     padding-top: 22px;
     width: 68px;
     font-size: 24px;
@@ -175,7 +168,6 @@ figcaption {
 }
 
 .service__name {
-    /* font-family: 'OpenSans'; */
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 2px;
@@ -190,17 +182,14 @@ figcaption {
 }
 
 .service__par {
-    /* font-family: 'OpenSans'; */
     width: 405px;
     font-size: 11px;
     line-height: 19px;
     letter-spacing: 0.2px;
     color: #48555B;
-
 }
 
 .service__button {
-    /* font-family: 'OpenSans'; */
     font-size: 13px;
     line-height: 15px;
     text-align: center;
@@ -222,8 +211,8 @@ figcaption {
     display: grid;
     gap: 28px;
     grid-template-columns: repeat(auto-fit, 360px);
-    /* justify-content: center; */
-
+    justify-content: center;
+    margin-bottom: 115px;
 }
 
 .service-item {
@@ -249,7 +238,6 @@ figcaption {
 
 .service__header {
     width: 250px;
-    font-family: 'OpenSans';
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -263,4 +251,41 @@ figcaption {
     letter-spacing: 0.1875px;
     color: #48555B;
     padding-bottom: 39px;
+}
+
+.get-in-touch {
+    margin-top: 115px;
+    background-image: url(img/bg-footer.jpg);
+    background-size: 100%;
+    height: 499px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-in-touch__header {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding-top: 120px;
+}
+
+.get-in-touch__button {
+    padding: 11px 26px;
+    border: none;
+    background: #00A4E5;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+}
+
+.get-in-touch__button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #00A4E5;
+    color: #00A4E5;
 }
