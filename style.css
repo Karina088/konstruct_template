@@ -357,6 +357,12 @@ footer {
 
 .footer {
     display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer:first-child {
+    align-self: center;
 }
 
 .company-par {
@@ -380,17 +386,13 @@ footer {
 
 .links {
     display: flex;
-    justify-content: center;
     align-self: center;
-}
-
-.link {
-    /* align-items: center;  */
 }
 
 .links>ul {
     list-style-type: none;
 }
+
 
 .link_par {
     font-size: 11px;
@@ -406,9 +408,12 @@ footer {
     text-decoration: none;
     font-size: 11px;
     line-height: 25px;
-    align-items: center;
     letter-spacing: 0.8px;
     color: #FFFFFF;
+}
+
+.link-home:hover {
+    color: #00A4E5;
 }
 
 .faq,
@@ -418,27 +423,45 @@ footer {
 }
 
 .contact {
-    display: flex;
-    align-content: center;
-    justify-content: right;
+    padding-top: 42px;
 }
 
 .contact-info {
     font-size: 11px;
     line-height: 16px;
-    align-items: center;
     letter-spacing: 0.8px;
     color: #FFFFFF;
     width: 141px;
 }
 
 .contact-name {
+    line-height: 13px;
+    padding-bottom: 15px;
+}
+
+.contact__number {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icons {
+    padding-top: 72px;
+}
+
+.icons-img {
+    filter: invert(90%);
+    height: 12px;
+    padding-left: 24px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 22px 23px;
+    background: #171819;
     font-size: 11px;
     line-height: 13px;
     letter-spacing: 0.8px;
     color: #FFFFFF;
-}
-
-.icons-img {
-    background-color: #141A20;
 }
