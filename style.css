@@ -207,10 +207,24 @@ figure {
     padding: 11px 29px;
 }
 
-.service__button:hover {
-    background-color: #FFFFFF;
-    border: 1px solid #00A4E5;
-    color: #00A4E5;
+/* .service__button:hover {
+    background: linear-gradient(344deg,
+            rgba(74, 105, 207, 1) 23%,
+            rgba(19, 110, 73, 1) 85%);
+    background-blend-mode: color-dodge;
+    box-shadow:
+        0px 0px 37px 0px rgba(176, 176, 176, 0.3),
+        0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+} */
+
+.animate_btn {
+    background: linear-gradient(344deg,
+            rgba(74, 105, 207, 1) 23%,
+            rgba(19, 110, 73, 1) 85%);
+    background-blend-mode: color-dodge;
+    box-shadow:
+        0px 0px 37px 0px rgba(176, 176, 176, 0.3),
+        0px 0px 0px 0px rgba(0, 0, 0, 0.3);
 }
 
 .service__cart {
@@ -292,9 +306,11 @@ figure {
 }
 
 .get-in-touch__button:hover {
-    background-color: #FFFFFF;
-    border: 1px solid #00A4E5;
-    color: #00A4E5;
+    background: linear-gradient(45deg,
+            rgba(15, 37, 110, 1) 12%,
+            rgba(32, 178, 7, 1) 84%,
+            rgba(32, 178, 7, 1) 90%);
+    background-blend-mode: normal;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -337,7 +353,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #BABABA;
+    background-color: rgb(181, 202, 218);
     color: #00A4E5;
     border: 0 solid #00A4E5;
     font-weight: bold;
@@ -355,6 +371,7 @@ button[type="submit"]:hover {
 input:invalid:not(:placeholder-shown)+.form__error {
     display: block;
 }
+
 
 footer {
     background: #141A20;
