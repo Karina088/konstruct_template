@@ -9,18 +9,25 @@
 
 body {
     font-family: 'Open Sans', 'Lucida Sans Unicode';
+    min-width: 970px;
 }
 
 header {
     background-image: url(img/bg.png);
     background-repeat: no-repeat;
-    height: 769px;
+    max-height: 769px;
     background-size: 100%;
 }
 
-.center {
+/* .center {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
+} */
+
+.container {
+    width: 970px;
+    margin: 0px auto;
+    padding: 0px 15px;
 }
 
 .logo {
@@ -59,17 +66,23 @@ header {
     text-align: center;
     letter-spacing: 3.7px;
     color: #FFFFFF;
+    padding-bottom: 71px;
     margin-top: 221px;
 }
 
 .menu {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    height: 65px;
+    height: 65px; */
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
     padding-top: 24px;
     text-align: center;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu__logo {
@@ -80,7 +93,7 @@ header {
 
 ul.menu__list li {
     display: inline;
-    padding-left: 48px;
+    padding-left: 38px;
 }
 
 .menu__link {
@@ -166,7 +179,6 @@ figure {
 
 .wrap {
     position: relative;
-
 }
 
 .wrap__img {
@@ -235,8 +247,8 @@ figure {
 .service__cart {
     margin-top: 78px;
     display: grid;
-    gap: 28px;
-    grid-template-columns: repeat(auto-fit, 360px);
+    gap: 27px;
+    grid-template-columns: repeat(auto-fit, 295px);
     justify-content: center;
     margin-bottom: 115px;
 }
