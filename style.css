@@ -438,6 +438,15 @@ header {
 
 }
 
+@media (max-width:652px) {
+    .menu__list.active {
+        transform: translateX(6px);
+        transform: translateY(56px);
+        width: 80%;
+        height: 30%;
+    }
+}
+
 @media (max-width: 435px) {
 
     .content__founded,
@@ -652,6 +661,11 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.get-in-touch {
+    -webkit-animation: get-in-touch 5s ease-out both;
+    animation: get-in-touch 5s ease-out both;
 }
 
 .get-in-touch__header {
